@@ -8,9 +8,9 @@ description: >-
 
 ### Database Settings
 
-* `method`: This setting determines the database method used by the application. It's a string value and can be either `SQL` or `SQLite`.
+* `method`: This setting determines the database method used by the application. It's a string value and can be either `SQL` or `REDIS`.
 * `sql`: This is a nested setting that contains the configuration for the SQL database. It includes the following sub-settings:
-  * `method`: The specific SQL method to use. It can be `MYSQL` or `POSTGRESQL`.
+  * `method`: The specific SQL method to use. It can be `MYSQL` or `SQLITE`.
   * `host`: The host address of the SQL server.
   * `port`: The port number of the SQL server.
   * `database`: The name of the database to connect to.

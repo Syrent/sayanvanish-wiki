@@ -8,6 +8,8 @@ SayanVanish is compatible with the following platforms:
 
 * **Minecraft**
   * **Bukkit**
+  * **Paper**
+    * **Folia**
   * **Proxy**
     * **Velocity**
     * **Bungeecord**
