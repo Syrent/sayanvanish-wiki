@@ -53,5 +53,10 @@ description: This document provides an overview of the commands and permissions
 * `sayanvanish.reload`: Allows the use of the `/sayanvanish reload` command.
 * `sayanvanish.level.set`: Allows the use of the `/sayanvanish level set` command.
 * `sayanvanish.level.get`: Allows the use of the `/sayanvanish level get` command.
+* `sayanvanish.action.vanish.onjoin`: Applies vanish on join
+* `sayanvanish.action.vanish.invulnerable`: Keeps invulnerability after unvanish
+* `sayanvanish.action.vanish.fly`
+
+
 
 Please note that these permissions need to be added to your server's permission management system (like LuckPerms) to take effect.
