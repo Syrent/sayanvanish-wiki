@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Installation](installation.md)
 * [Configuration](configuration/README.md)
   * [settings.yml](configuration/settings.yml.md)
   * [database.yml](configuration/database.yml.md)
