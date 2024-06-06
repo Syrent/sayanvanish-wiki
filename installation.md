@@ -32,6 +32,10 @@
 
 ### Proxy (Velocity/Bungeecord) Installation
 
+{% hint style="info" %}
+Its not required to use proxy modules to sync data between servers, proxy modules enables ``%sayanvanish_online_tota% and `%sayanvanish_online_<server>%` placeholders and enables api calls from Velocity to backend servers``
+{% endhint %}
+
 1. **Download the Plugin**
    * Download the SayanVanish Velocity/Bungeecord jar file from [Hangar](https://hangar.papermc.io/Syrent/SayanVanish) or [Modrinth](https://modrinth.com/plugin/sayanvanish).
 2. **Install the Plugin**
