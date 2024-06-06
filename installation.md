@@ -33,7 +33,7 @@
 ### Proxy (Velocity/Bungeecord) Installation
 
 {% hint style="info" %}
-Its not required to use proxy modules to sync data between servers, proxy modules enables ``%sayanvanish_online_tota% and `%sayanvanish_online_<server>%` placeholders and enables api calls from Velocity to backend servers``
+Its not required to use proxy modules to sync data between servers, proxy modules enables `%sayanvanish_online_tota%`and `%sayanvanish_online_<server>%` placeholders and enables api calls from Velocity to backend servers
 {% endhint %}
 
 1. **Download the Plugin**
