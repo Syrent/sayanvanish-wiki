@@ -20,7 +20,7 @@ SayanVanish contains an extensive API to perform all necessary actions. To start
 
 ```groovy
 maven {
-    url "https://repo.sayandev.org/repository"
+    url "https://repo.sayandev.org/snapshots"
 }
 ```
 
@@ -28,7 +28,7 @@ maven {
 
 ```kotlin
 maven {
-    url = uri("https://repo.sayandev.org/repository")
+    url = uri("https://repo.sayandev.org/snapshots")
 }
 ```
 
