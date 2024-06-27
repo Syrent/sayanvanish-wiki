@@ -10,7 +10,7 @@ SayanVanish contains an extensive API to perform all necessary actions. To start
 <repository>
   <id>repo-sayandevelopment</id>
   <name>SayanDevelopment Repository</name>
-  <url>https://repo.sayandev.org/repository</url>
+  <url>https://repo.sayandev.org/snapshots</url>
 </repository>
 ```
 
