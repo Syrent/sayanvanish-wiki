@@ -14,3 +14,7 @@
 * [How It Works?](api/how-it-works.md)
 * [How to Use the API](api/how-to-use-the-api.md)
 * [Events](api/events.md)
+
+***
+
+* [FAQ](faq.md)

@@ -9,6 +9,10 @@
 3. **Restart the Server**
    * Restart your Minecraft server to load the plugin.
 
+{% hint style="danger" %}
+Do **NOT** copy and paste the SayanVanish directory across multiple servers. The `settings.yml` file contains a unique ID generated during the plugin's first startup. Duplicating this file could lead to synchronization issues.
+{% endhint %}
+
 #### Optional Steps
 
 * **Configure Database**
@@ -22,18 +26,18 @@
 [settings.yml.md](configuration/settings.yml.md)
 {% endcontent-ref %}
 
-{% content-ref url="configuration/less-than-feature-greater-than.yml.md" %}
-[less-than-feature-greater-than.yml.md](configuration/less-than-feature-greater-than.yml.md)
-{% endcontent-ref %}
-
 {% content-ref url="configuration/database.yml.md" %}
 [database.yml.md](configuration/database.yml.md)
+{% endcontent-ref %}
+
+{% content-ref url="configuration/less-than-feature-greater-than.yml.md" %}
+[less-than-feature-greater-than.yml.md](configuration/less-than-feature-greater-than.yml.md)
 {% endcontent-ref %}
 
 ### Proxy (Velocity/Bungeecord) Installation
 
 {% hint style="info" %}
-Its not required to use proxy modules to sync data between servers, proxy modules enables `%sayanvanish_online_tota%`and `%sayanvanish_online_<server>%` placeholders and enables api calls from Velocity to backend servers
+Using proxy modules to sync data between servers is not necessary. These modules enable the `%sayanvanish_online_tota%` and `%sayanvanish_online_<server>%` placeholders and allow API calls from Velocity to backend servers.
 {% endhint %}
 
 1. **Download the Plugin**

@@ -9,7 +9,6 @@ description: >-
 ### General Settings
 
 * `language`: This setting determines the language used by the application. It's a string value and the default is `en_US`.
-* `update-checker`: This is a boolean setting that controls whether the application should check for updates. If set to `true`, the application will check for updates. If set to `false`, it will not.
 * `proxy-mode`: This is a boolean setting that controls whether the application should run in proxy mode. If set to `true`, the application will run in proxy mode. If set to `false`, it will not.
 
 Here's an example of how these settings might look in the `settings.yml` file:
@@ -17,6 +16,5 @@ Here's an example of how these settings might look in the `settings.yml` file:
 ```yaml
 general:
     language: en_US
-    update-checker: true
     proxy-mode: false
 ```
