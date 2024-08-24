@@ -1,5 +1,9 @@
 # Installation
 
+{% hint style="warning" %}
+SayanVanish needs an active internet connection to be enabled on your server. Ensure your server is connected to the internet during the initial startup.
+{% endhint %}
+
 ### Bukkit Installation
 
 1. **Download the Plugin**
