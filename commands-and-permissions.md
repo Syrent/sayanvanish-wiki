@@ -4,7 +4,7 @@ description: This document provides an overview of the commands and permissions
 
 # Commands And Permissions
 
-### Commands
+### Bukkit Commands
 
 #### `/sayanvanish`
 
@@ -45,7 +45,13 @@ description: This document provides an overview of the commands and permissions
 * Permission: `sayanvanish.commands.level.get`
 * Usage: `/sayanvanish level get <player>`
 
-### Permissions
+#### `/sayanvanish forceupdate`
+
+* Description: Will update your plugin jar file and will be applied on next server restart
+* Permission: `sayanvanish.commands.forceupdate`
+* Usage: `/sayanvanish forceupdate`
+
+### Bukkit Permissions
 
 * `sayanvanish.commands.vanish`: Allows the use of the `/sayanvanish` command.
 * `sayanvanish.commands.help`: Allows the use of the `/sayanvanish help` command.
@@ -57,6 +63,25 @@ description: This document provides an overview of the commands and permissions
 * `sayanvanish.action.vanish.invulnerable`: Keeps invulnerability after unvanish
 * `sayanvanish.action.vanish.fly`
 
+### Proxy Commands
 
+#### `/sayanvanishproxy`
+
+* Description: Main command for the SayanVanish plugin on proxies.
+* Permission: `sayanvanish.commands.use`
+* Usage: `/sayanvanish [player] [--state on/off] [-s]`
+* Flags:
+  * `--state on/off`: Sets the vanish state of the player to either on or off.
+  * `-s`: Executes the command silently.
+
+#### `/sayanvanishproxy forceupdate`
+
+* Description: Will update your plugin jar file and will be applied on next server restart
+* Permission: `sayanvanish.commands.forceupdate`
+* Usage: `/sayanvanish forceupdate`
+
+### Proxy Permissions
+
+* `sayanvanish.commands.use`: Allows the use of the `/sayanvanishproxy` command.
 
 Please note that these permissions need to be added to your server's permission management system (like LuckPerms) to take effect.

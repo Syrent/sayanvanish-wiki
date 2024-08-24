@@ -1,6 +1,6 @@
 # \<feature>.yml
 
-In the SayanVanish project, features are controlled by individual YAML configuration files. These files allow you to enable, disable, and configure the behavior of each feature. Here's a general guide on how to use and modify them.
+In the SayanVanish, features are controlled by individual YAML configuration files. These files allow you to enable, disable, and configure the behavior of each feature. Here's a general guide on how to use and modify them.
 
 ### General Structure
 
@@ -60,6 +60,4 @@ In this example, the `effect` feature has an additional setting `effects`. This 
 
 ### Modifying Features
 
-To modify a feature, simply open the corresponding YAML file and change the settings as needed. Make sure to save the file and restart the application for the changes to take effect.
-
-Please note that these settings can be changed according to your requirements. Always make sure to use valid values for each setting to avoid errors.
+To modify a feature, simply open the corresponding YAML file and change the settings as needed. Make sure to save the file and restart/reload SayanVanish for the changes to take effect.
