@@ -9,7 +9,7 @@ description: This document provides an overview of the commands and permissions
 #### `/sayanvanish`
 
 * Description: Main command for the SayanVanish plugin.
-* Permission: `sayanvanish.commands.vanish`
+* Permission: `sayanvanish.commands.use`
 * Usage: `/sayanvanish [player] [--state on/off] [-s]`
 * Flags:
   * `--state on/off`: Sets the vanish state of the player to either on or off.
