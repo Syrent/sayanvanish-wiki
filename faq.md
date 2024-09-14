@@ -16,6 +16,15 @@ For example, to use the command `/sayanvanish feature toggleplayer <feature> [pl
 
 If you’re using a proxy command (`/sayanvanishproxy`), make sure to quit and rejoin after granting yourself the necessary permissions.
 
+### SayanVanish Doesn't Recognize `*` Permission or Operator Status
+
+There are two possible scenarios:
+
+1. **Proxy Permission**: Some permissions depend on processes managed by the proxy (e.g., Velocity, Bungeecord). To use these permissions, you'll need a plugin like LuckPermsVelocity.
+2. **LuckPerms Integration**: If LuckPerms is installed on your server, SayanVanish will use its API to handle permissions. This helps prevent issues, such as the `sayanvanish.action.vanish.onjoin` permission being automatically granted if you're an operator or have `*` permissions. To change this behavior, you can disable the `check-permission-via-luckperms` option in `hook_luckperms.yml` within the `features` directory. You can do this using the command `/sayanvanish feature hook_luckperms update checkPermissionViaLuckPerms false`. Alternatively (**Recommended**), you can assign specific permissions using LuckPerms. For instance, if you want to have vanish-on-join permission, you should grant `sayanvanish.action.vanish.onjoin`. If you need to use the vanish feature, assign `sayanvanish.vanish.use` directly.
+
+
+
 {% content-ref url="commands-and-permissions.md" %}
 [commands-and-permissions.md](commands-and-permissions.md)
 {% endcontent-ref %}
