@@ -53,7 +53,7 @@ description: This document provides an overview of the commands and permissions
 
 ### Bukkit Permissions
 
-* `sayanvanish.commands.vanish`: Allows the use of the `/sayanvanish` command.
+* `sayanvanish.commands.use`: Allows the use of the `/sayanvanish` command.
 * `sayanvanish.commands.help`: Allows the use of the `/sayanvanish help` command.
 * `sayanvanish.commands.paste`: Allows the use of the `/sayanvanish paste` command.
 * `sayanvanish.commands.reload`: Allows the use of the `/sayanvanish reload` command.
