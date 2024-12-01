@@ -62,6 +62,7 @@ description: This document provides an overview of the commands and permissions
 * `sayanvanish.action.vanish.onjoin`: Applies vanish on join
 * `sayanvanish.action.vanish.invulnerable`: Keeps invulnerability after unvanish
 * `sayanvanish.action.vanish.fly`
+* `sayanvanish.action.vanish.fly.keep_after_reappear`
 
 ### Proxy Commands
 
