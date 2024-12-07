@@ -41,7 +41,7 @@ Do **NOT** copy and paste the SayanVanish directory across multiple servers. The
 ### Proxy (Velocity/Bungeecord) Installation
 
 {% hint style="info" %}
-Using proxy modules to sync data between servers is not necessary. These modules enable the `%sayanvanish_online_tota%` and `%sayanvanish_online_<server>%` placeholders and allow API calls from Velocity to backend servers.
+Using proxy modules to sync data between servers is not necessary. These modules enable the `%sayanvanish_online_total%` and `%sayanvanish_online_<server>%` placeholders and allow API calls from Velocity to backend servers.
 {% endhint %}
 
 {% hint style="danger" %}
