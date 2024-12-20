@@ -18,3 +18,4 @@
 ***
 
 * [FAQ](faq.md)
+* [Supported Plugins](supported-plugins.md)
