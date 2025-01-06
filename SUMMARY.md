@@ -36,7 +36,7 @@
       * [Server Ping](features/bukkit/prevent/server-ping.md)
       * [Spawner Spawn](features/bukkit/prevent/spawner-spawn.md)
       * [Tab Complete](features/bukkit/prevent/tab-complete.md)
-      * [Page 1](features/bukkit/prevent/page-1.md)
+      * [Food Level Change](features/bukkit/prevent/food-level-change.md)
     * [Actionbar](features/bukkit/actionbar.md)
     * [Effect](features/bukkit/effect.md)
     * [Fake Message](features/bukkit/fake-message.md)
