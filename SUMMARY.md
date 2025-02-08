@@ -18,6 +18,7 @@
       * [Pl3xMap](features/bukkit/hooks/pl3xmap.md)
       * [PlaceholderAPI](features/bukkit/hooks/placeholderapi.md)
       * [SquareMap](features/bukkit/hooks/squaremap.md)
+      * [dynmap](features/bukkit/hooks/dynmap.md)
       * [TAB](features/bukkit/hooks/tab.md)
       * [LuckPerms](features/bukkit/hooks/luckperms.md)
     * [Prevent](features/bukkit/prevent/README.md)
