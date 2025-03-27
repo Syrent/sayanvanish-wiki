@@ -4,6 +4,10 @@
 SayanVanish needs an active internet connection to be enabled on your server. Ensure your server is connected to the internet during the initial startup.
 {% endhint %}
 
+{% hint style="danger" %}
+SayanVanish does not support Paper 1.16 and 1.17. Additionally, compatibility with 1.8 is limited to modern forks such as CarbonSpigot, which include updated versions of SnakeYAML and SQLite.
+{% endhint %}
+
 ### Bukkit Installation
 
 1. **Download the Plugin**
