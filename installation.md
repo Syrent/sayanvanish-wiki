@@ -5,6 +5,10 @@ SayanVanish needs an active internet connection to be enabled on your server. En
 {% endhint %}
 
 {% hint style="danger" %}
+SayanVanish will require approximately 100MB of disk space to store its dependencies, configuration files, and other necessary data required for proper functionality.
+{% endhint %}
+
+{% hint style="danger" %}
 SayanVanish does not support Paper 1.16 and 1.17. Additionally, compatibility with 1.8 is limited to modern forks such as CarbonSpigot, which include updated versions of SnakeYAML and SQLite.
 {% endhint %}
 
