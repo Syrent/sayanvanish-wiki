@@ -42,7 +42,7 @@ The dependency artifact for the main API is `sayanvanish-api`.
 
 **Platform-Specific Dependencies**
 
-For platform-specific dependencies, the artifact ID follows the format `sayanvanish-<platform>`. Examples include `sayanvanish-bukkit` and `sayanvanish-proxy-velocity`.
+For platform-specific dependencies, the artifact ID follows the format `sayanvanish-<platform>`. Examples include `sayanvanish-bukkit` and `sayanvanish-proxy-velocity`. (you need to have `sayanvanish-api` anyway)
 
 **In Maven**
 
@@ -51,6 +51,7 @@ For platform-specific dependencies, the artifact ID follows the format `sayanvan
   <groupId>org.sayandev</groupId>
   <artifactId>sayanvanish-bukkit</artifactId>
   <version>[get version from github]</version>
+  <scope>provided</scope>
 </dependency>
 ```
 
@@ -59,14 +60,20 @@ For platform-specific dependencies, the artifact ID follows the format `sayanvan
 * **Groovy**
 
 ```groovy
-implementation "org.sayandev:sayanvanish-bukkit:[get version from github]"
+compileOnly "org.sayandev:sayanvanish-bukkit:[get version from github]"
 ```
 
 * **Kotlin**
 
 ```kotlin
-implementation("org.sayandev:sayanvanish-bukkit:[get version from github]")
+compileOnly("org.sayandev:sayanvanish-bukkit:[get version from github]")
 ```
+
+####
+
+{% hint style="warning" %}
+You need to add `sayanvanish-api` artifact as a baseline despite the platform you want to use.
+{% endhint %}
 
 #### Accessing the API
 
