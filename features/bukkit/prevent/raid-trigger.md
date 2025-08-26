@@ -8,4 +8,4 @@ description: This feature prevents players from triggering raids when they are v
 
 | Parameter | Description                                    | Default Value | Possible Values |
 | --------- | ---------------------------------------------- | ------------- | --------------- |
-| `enabled` | Whether to enable the raid trigger prevention. | `false`       | `true`, `false` |
+| `enabled` | Whether to enable the raid trigger prevention. | `true`        | `true`, `false` |

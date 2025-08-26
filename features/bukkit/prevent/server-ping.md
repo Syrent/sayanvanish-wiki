@@ -10,4 +10,4 @@ description: >-
 
 | Parameter | Description                                   | Default Value | Possible Values |
 | --------- | --------------------------------------------- | ------------- | --------------- |
-| `enabled` | Whether to enable the server ping prevention. | `false`       | `true`, `false` |
+| `enabled` | Whether to enable the server ping prevention. | `true`        | `true`, `false` |

@@ -11,3 +11,4 @@ description: >-
 | Parameter          | Description                                                                  | Default Value | Possible Values |
 | ------------------ | ---------------------------------------------------------------------------- | ------------- | --------------- |
 | `checkVanishLevel` | Whether to check the vanish level of the player before filtering completions | `false`       | `true`, `false` |
+| `enabled`          | Whether to enable the tab complete prevention.                               | `true`        | `true`, `false` |

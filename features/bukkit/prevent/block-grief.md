@@ -10,4 +10,4 @@ description: >-
 
 | Parameter | Description                                   | Default Value | Possible Values |
 | --------- | --------------------------------------------- | ------------- | --------------- |
-| `enabled` | Whether to enable the block grief prevention. | `false`       | `true`, `false` |
+| `enabled` | Whether to enable the block grief prevention. | `true`        | `true`, `false` |
