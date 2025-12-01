@@ -53,6 +53,7 @@ description: This document provides an overview of the commands and permissions
 
 ### Bukkit Permissions
 
+* `sayanvanish.vanish.use` allows you to keep your vanish state between connected servers
 * `sayanvanish.commands.use`: Allows the use of the `/sayanvanish` command.
 * `sayanvanish.commands.help`: Allows the use of the `/sayanvanish help` command.
 * `sayanvanish.commands.paste`: Allows the use of the `/sayanvanish paste` command.
